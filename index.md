@@ -1,30 +1,20 @@
 ---
 layout: home
 header:
-  title: Your Favorite Source of Free Bootstrap Themes
+  title: Welcome to Apache EventMesh
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    EventMesh is a dynamic cloud-native eventing infrastructure used to decouple the application and backend middleware layer, 
+    which supports a wide range of use cases that encompass complex multi-cloud, widely distributed topologies using diverse technology stacks.
   action: # action button is optional
-    label: Find Out More
+    label: Get Started!
     url: '#about'
 
 
 sections:
-  - type: call-to-action.html
-    section_id: about
-    background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
-    actions:
-      - title: Get Started!
-        url: '#page-top'
-        class: btn-light
-
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: At Your Service
+    title: Features
     services:
       - title: Sturdy Templates
         text: Our templates are updated regularly so they don't break.
