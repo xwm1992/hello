@@ -3,11 +3,11 @@ layout: home
 header:
   title: Welcome to Apache EventMesh
   text: >
-    EventMesh is a dynamic cloud-native eventing infrastructure used to decouple the application and backend middleware layer, 
+    EventMesh is a dynamic cloud-native eventing infrastructure used to decouple the application and backend middleware layer,
     which supports a wide range of use cases that encompass complex multi-cloud, widely distributed topologies using diverse technology stacks.
   action: # action button is optional
     label: Get Started!
-    url: '#about'
+    url: 'https://github.com/WeBankFinTech/EventMesh'
 
 
 sections:
@@ -16,25 +16,25 @@ sections:
     #background_style: bg-info
     title: Features
     services:
-      - title: Sturdy Templates
+      - title: Event driven
         text: Our templates are updated regularly so they don't break.
-        icon: fa-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
+        icon: fa-google-drive fab
+        # url: https://startbootstrap.com/ text-info
+      - title: Event governance
         text: You can use this theme as is, or you can make changes!
-        icon: fa-paper-plane
-      - title: Up to Date
+        icon: fa-whmcs fab
+      - title: Dynamic routing
         text: We update dependencies to keep things fresh.
-        icon: fa-laptop-code
-      - title: Made with Love
+        icon: fa-route fas
+      - title: Cloud native
         text: You have to make your websites with love these days!
-        icon: fa-heart
-      - title: Other 1
+        icon: fa-cloud fas
+      - title: Flow control
         text: Some not-so long text here.
-        icon: fa-heart
-      - title: Other 2
+        icon: fa-toggle-on fas
+      - title: Load balance
         text: Some not-so long text here.
-        icon: fa-heart
+        icon: fa-balance-scale fas
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
