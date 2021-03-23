@@ -2097,6 +2097,15 @@ select.form-control[size], select.form-control[multiple] {
   height: auto;
 }
 
+.last-hidden span{
+  margin-left: 6px;
+  margin-right: 2px;
+}
+
+.last-hidden span:last-child{
+  display: none;
+}
+
 textarea.form-control {
   height: auto;
 }
@@ -6303,6 +6312,16 @@ button.bg-dark:focus {
 
 .d-block {
   display: block !important;
+}
+
+ span.d-block {
+  color: #f4623a;
+  background-color: transparent;
+}
+
+.d-block.text {
+  // text-align: left;
+  font-size: 13px;
 }
 
 .d-table {

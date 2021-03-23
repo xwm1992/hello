@@ -104,9 +104,10 @@ sections:
       Ready to start this awesome project with us? Send us an email
       and we will get back to you as soon as possible!
     actions:
-    - title: E-Mail:-for subscribe:users-subscribe@eventmesh.incubator.apache.org dev-subscribe@eventmesh.incubator.apache.org -for contact:users@eventmesh.apache.org dev@eventmesh.apache.org
+    - title: E-Mail
       icon: fa-envelope
-      url: mailto:contact@yourwebsite.com
+      text: -for subscribe:<br/>users-subscribe@eventmesh.incubator.apache.org<br/>dev-subscribe@eventmesh.incubator.apache.org<br/>-for contact:<br/>users@eventmesh.apache.org dev@eventmesh.apache.org
+      # url: mailto:contact@yourwebsite.com
     - title: Twitter
       icon: fa-twitter
       icon_type: fab
