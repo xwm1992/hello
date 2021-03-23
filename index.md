@@ -40,6 +40,7 @@ sections:
     # this section has always ID 'portfolio'
     #section_id: portfolio
     #background_style: bg-dark
+    title: instructions
     projects:
       - title: EventMesh Ecosystem
         text: What is EventMesh
@@ -70,22 +71,22 @@ sections:
     title: Our Users
     background_style: bg-info text-white
     members:
-      - title: 
-        text: 
+      - title:
+        text:
         image: assets/img/members/webank.png
         url: 'www.webank.com'
-      - title: 
-        text: 
-        image: 
-        url: '#'
-      - title: 
-        text: 
-        image: 
-        url: '#'
-      - title: 
-        text: 
-        image: 
-        url: '#'        
+      # - title:
+      #   text:
+      #   image:
+      #   url: '#'
+      # - title:
+      #   text:
+      #   image:
+      #   url: '#'
+      # - title:
+      #   text:
+      #   image:
+      #   url: '#'
 
   - type: timeline.html
     section_id: timeline
