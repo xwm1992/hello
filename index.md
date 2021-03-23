@@ -1,7 +1,7 @@
 ---
 layout: home
 header:
-  title: Welcome to Apache EventMesh
+  title: Apache EventMesh
   text: >
     EventMesh is a dynamic cloud-native eventing infrastructure used to decouple the application and backend middleware layer,
     which supports a wide range of use cases that encompass complex multi-cloud, widely distributed topologies using diverse technology stacks.
@@ -17,23 +17,23 @@ sections:
     title: Features
     services:
       - title: Event driven
-        text: Our templates are updated regularly so they don't break.
+        text: Event-driven architecture can minimize coupling and well extend and adapt different types of service components
         icon: fa-google-drive fab
         # url: https://startbootstrap.com/ text-info
       - title: Event governance
-        text: You can use this theme as is, or you can make changes!
+        text: You can configure the event scheme and monitor the event with the relevant metrics
         icon: fa-whmcs fab
       - title: Dynamic routing
-        text: We update dependencies to keep things fresh.
+        text: Supports event filtering , and events can be dynamically routed to various service nodes
         icon: fa-route fas
       - title: Cloud native
-        text: You have to make your websites with love these days!
+        text: Supports container-oriented deployment, micro-service oriented, event orchestration and scheduling
         icon: fa-cloud fas
       - title: Flow control
-        text: Some not-so long text here.
+        text: Support flow control, fusing and retry to ensure high availability of services
         icon: fa-toggle-on fas
       - title: Load balance
-        text: Some not-so long text here.
+        text: Supports clustering mode and sidecar mode deployment
         icon: fa-balance-scale fas
 
   - type: portfolio.html
@@ -41,32 +41,20 @@ sections:
     #section_id: portfolio
     #background_style: bg-dark
     projects:
-      - title: Project 1
-        text: This is a very short project description.
+      - title: EventMesh Ecosystem
+        text: What is EventMesh
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
-        icon: 1.jpg
+        icon: eventmesh-define.png
         url: '#'
-      - title: Project 2
-        text: This is a very short project description.
-        icon: 2.jpg
+      - title: EventMesh Architecture
+        text: EventMesh ability and architecture
+        icon: eventmesh-runtime.png
         url: '#'
-      - title: Project 3
-        text: This is a very short project description.
-        icon: 3.jpg
-        url: '#'
-      - title: Project 4
-        text: This is a very short project description.
-        icon: 4.jpg
-        url: '#'
-      - title: Project 5
-        text: This is a very short project description.
-        icon: 5.jpg
-        url: '#'
-      - title: Project 6
-        text: This is a very short project description.
-        icon: 6.jpg
+      - title: EventMesh Cloud Native
+        text: Panels and cloud native deployment
+        icon: eventmesh-panels.png
         url: '#'
 
   - type: aside.html
@@ -79,12 +67,12 @@ sections:
 
   - type: members.html
     section_id: members
-    title: Our Crew!
+    title: Our Users
     background_style: bg-info text-white
     members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
+      - title: 
+        text: 
+        image: assets/img/members/webank.png
         url: '#'
       - title: Gary D. Stevens
         text: Bass guitar.
