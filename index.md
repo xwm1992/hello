@@ -73,19 +73,7 @@ sections:
       - title: 
         text: 
         image: assets/img/members/webank.png
-        url: 'www.webank.com'
-      - title: 
-        text: 
-        image: 
-        url: '#'
-      - title: 
-        text: 
-        image: 
-        url: '#'
-      - title: 
-        text: 
-        image: 
-        url: '#'        
+        url: 'www.webank.com'     
 
   - type: timeline.html
     section_id: timeline
@@ -112,12 +100,10 @@ sections:
     section_id: contacts
     title: Let's Get In Touch!
     text: >-
-      Ready to start your next project with us? Give us a call or send us an email
+      Ready to start this awesome project with us? Send us an email
       and we will get back to you as soon as possible!
     actions:
-    - title: +1 (202) 555-014
-      icon: fa-phone
-    - title: E-Mail
+    - title: E-Mail:-for subscribe:users-subscribe@eventmesh.incubator.apache.org dev-subscribe@eventmesh.incubator.apache.org -for contact:users@eventmesh.apache.org dev@eventmesh.apache.org
       icon: fa-envelope
       url: mailto:contact@yourwebsite.com
     - title: Twitter
