@@ -73,27 +73,19 @@ sections:
       - title: 
         text: 
         image: assets/img/members/webank.png
+        url: 'www.webank.com'
+      - title: 
+        text: 
+        image: 
         url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
+      - title: 
+        text: 
+        image: 
         url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
-        url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
-        url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
-        url: '#'
+      - title: 
+        text: 
+        image: 
+        url: '#'        
 
   - type: timeline.html
     section_id: timeline
