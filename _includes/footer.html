@@ -1,11 +1,11 @@
 <!-- no footer at all! -->
 <footer class="bg-light py-5">
   <div class="container" >
-    <div class="small text-center text-muted last-hidden" style="display: flex"  >
+    <div class="small text-center text-muted" style="display: flex"  >
       <a style="display: block;margin-right:10px" href="https://www.apache.org/">
         <img src="assets/img/apache-logo-small.png" alt="Apache Software Foundation" style="height: 100px !important">
       </a>
-      <div style="flex: 1">
+      <div style="flex: 1" class="last-hidden">
         {{ site.data.footer.copyright }}
         {% for link in site.data.footer.links %}
         <a href="{{ link.url }}" {% assign new_window_is_not_empty = link.new_window | is_not_empty %}
